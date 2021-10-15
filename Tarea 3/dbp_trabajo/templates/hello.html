@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    CURRICULUM VITAE
+{% endblock %}
+
+{% block body %}
+<form>
+    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="{{nombre}}">
+    <br>
+    <div class="form-group">
+      <label class="fst-italic" for="exampleInputEmail1">RESUMEN</label>
+      <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{resumen}}" width=200px>
+    </div><br>
+    <div class="form-group">
+      <label class="fst-italic" for="exampleInputPassword1">DATOS PERSONALES</label>
+      <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{datosperso}}" >
+    </div><br>
+    <div class="form-group">
+        <label class="fst-italic" for="exampleInputPassword1">EXPERIENCIA</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{experiencia}}" >
+      </div><br>
+      <div class="form-group">
+        <label class="fst-italic" for="exampleInputPassword1">ESTUDIOS</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{estudios}}" >
+      </div><br>
+      <div class="form-group">
+        <label class="fst-italic" for="exampleInputPassword1">LOGROS</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{logros}}" >
+      </div><br>
+      <div class="form-group">
+        <label class="fst-italic" for="exampleInputPassword1">HABILIDADES</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{habilidades}}" >
+      </div><br>
+      <div class="form-group">
+        <label class="fst-italic" for="exampleInputPassword1">INTERESES</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{intereses}}" >
+      </div><br>
+      <div class="form-group">
+        <label class="fst-italic" for="exampleInputPassword1">REFERENCIAS</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{referencias}}" >
+      </div><br>
+  </form>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+{% endblock %}
