@@ -1,0 +1,68 @@
+body{
+    background-color: #ffedba;
+}
+.fondo{
+    background-image: url("https://fondosmil.com/fondo/21037.jpg");
+}
+div#general{
+    margin:auto;
+    margin-top: 50px;
+    width: 1200px;
+    height: 1000px;
+    background: linear-gradient(to bottom, #8a7763, white);
+    border-radius: 15px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+div#centro{
+    float: right;
+    width: 900px;
+    height: 900px;
+    background: linear-gradient(to bottom, white, #8a7763);
+    border-radius: 15px;
+}
+.centro1{
+    display: flex;
+    justify-content: center;
+}
+.centro2{
+    padding: 50px;
+    margin: 50px;
+    background: linear-gradient(to bottom, white, #e4f4fd);
+    border-radius: 50px;
+}
+div#subgeneral{
+    width: 300px;
+    height: 1000px;
+    background: linear-gradient(to bottom, #a06c3f, white);
+    border-radius: 15px;
+}
+div#subgeneral2{
+    float: right;
+    width: 900px;
+    height: 250px;
+    background: linear-gradient(to bottom, #00C5FF, white);
+    border-radius: 15px;
+}
+.imgRedonda{
+    width: 250px ;
+    height: 250px;
+    border-radius: 250px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.font{
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+.font1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    /*padding: 20px;*/
+}
+.title{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}

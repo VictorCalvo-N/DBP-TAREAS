@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}" type= "text/css">
+    
+  </head>
+
+<body>
+    <h1 class="title">LLENADO DE INFORMACIÓN</h1>
+<div class="centro1">
+  <div class="centro2">
+  <form action="{{ url_for('hello') }}" method="post">
+    <br>
+    <div class="form-group row">
+      <label for="inputPassword" class="font1">NOMBRES Y APELLIDOS</label>
+      <div class="col-sm-15">
+        <input name="nombre" class="form-control" placeholder="Ingresa tus Nombres y Apellidos">
+      </div>
+    </div><br>
+    <div class="form-group row">
+      <label for="imagen" >IMAGEN</label>
+        <input name="imagen" type="file" size="60">
+    </div><br>
+    <div class="form-group row">
+        <label for="inputPassword" class="font1">RESUMEN</label>
+        <div class="col-sm-15">
+          <input name="resumen" class="form-control" placeholder="Ingresa tu resumen">
+        </div>
+      </div><br>
+      <div class="form-group row">
+        <label for="inputPassword" class="font1">DATOS PERSONALES</label>
+        <div class="col-sm-15">
+          <input name="datosperso" class="form-control" placeholder="Ingresa tus datos personales">
+        </div>
+      </div><br>
+      <div class="form-group row">
+        <label for="inputPassword" class="font1">EXPERIENCIA</label>
+        <div class="col-sm-15">
+          <input name="experiencia" class="form-control" placeholder="Ingresa tu experiencia">
+        </div>
+      </div><br>
+      <div class="form-group row">
+        <label for="inputPassword" class="font1">ESTUDIOS</label>
+        <div class="col-sm-15">
+          <input name="estudios" class="form-control" placeholder="Ingresa tus estudios">
+        </div>
+      </div><br>
+      <div class="form-group row">
+        <label for="inputPassword" class="font1">LOGROS</label>
+        <div class="col-sm-15">
+          <input name="logros" class="form-control" placeholder="Ingresa tus logros">
+        </div>
+      </div><br>
+      <div class="form-group row">
+        <label for="inputPassword" class="font1">HABILIDADES</label>
+        <div class="col-sm-15">
+          <input name="habilidades" class="form-control" placeholder="Ingresa tus habilidades">
+        </div>
+      </div><br>
+      <div class="form-group row">
+        <label for="inputPassword" class="font1">INTERESES</label>
+        <div class="col-sm-15">
+          <input name="intereses" class="form-control" placeholder="Ingresa tus intereses">
+        </div>
+      </div><br>
+      <div class="form-group row">
+        <label for="inputPassword" class="font1">REFERENCIAS</label>
+        <div class="col-sm-15">
+          <input name="referencias" class="form-control" placeholder="Ingresa tus referencias">
+        </div>
+      </div><br>
+      <input class="btn btn-primary" type="submit" value="Submit">
+  </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da12pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  </div>
+</div>
+</body>
+
+  </html>

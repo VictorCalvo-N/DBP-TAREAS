@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}" type= "text/css">
+  </head>
+  <body>
+
+<div id="general">
+  <div id="subgeneral2">
+    <h1 class="title">{{nombre}}</h1>
+    <p class="font1" >{{resumen}}</p>
+    <div id="centro">
+      <h2 class="title"></h2><hr />
+      
+      <h2 class="title">EXPERIENCIA</h2><hr />
+      <p class="font1" >{{experiencia}}</p><hr />
+      <h2 class="title">ESTUDIOS</h2><hr />
+      <p class="font1" >{{estudios}}</p><hr />
+      <h2 class="title">LOGROS</h2><hr />
+      <p class="font1" >{{logros}}</p><hr />
+      <h2 class="title">INTERESES</h2><hr />
+      <p class="font1" >{{intereses}}</p>
+    </div>
+  </div>
+  <div id="subgeneral">
+    <img class="imgRedonda" src="foto.jpg">
+    <hr />
+    <!--<img class='imgRedonda' src={{imagen}}>-->
+    <h2 class="title">DATOS PERSONALES</h2>
+    <p class="font1" >{{datosperso}}</p><hr />
+    <h2 class="title">REFERENCIAS</h2>
+    <p class="font1" >{{referencias}}</p>
+  </div>
+</div>
+</body>
+</html>
